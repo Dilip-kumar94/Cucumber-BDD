@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
     //tags="@P1",
     dryRun=false,
     //strict = true -depreceated
-    monochrome = true,
+    monochrome = true
     //name = {"logo"} executes the scenarios where logos are involved.
 )
 public class TestRunner {
