@@ -16,7 +16,7 @@ public class EbayHompage_Elements {
     @FindBy(xpath = "//div[@id='gh-ac-wrap']/input") public WebElement searchBar;
     @FindBy(className="gh-search-categories") public WebElement selectCategory;
     @FindBy(id="gh-search-btn") public WebElement searchButton;
-    @FindBy(className="srp-controls__count-heading") public WebElement itemCount;
+    @FindBy(xpath="//h1[@class='srp-controls__count-heading']/span[2]") public WebElement itemCount;
     @FindBy(xpath = "//div[@class='srp-river-results clearfix'] //div[@class='s-item__title']/span") public List<WebElement> listedProducts;
     @FindBy(className="carousel__playback")public WebElement playCarouselButton;
     @FindBy(xpath ="//div[@Class='vl-banner-multi-cta__main-container']") public List<WebElement> carouselList;
