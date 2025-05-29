@@ -10,7 +10,10 @@ import io.cucumber.junit.CucumberOptions;
     glue = {"steps"},
     plugin ={"pretty","json:target/cucumber/report.json"},
     //tags="@P1",
-    dryRun=false
+    dryRun=false,
+    //strict = true -depreceated
+    monochrome = true,
+    //name = {"logo"} executes the scenarios where logos are involved.
 )
 public class TestRunner {
 
