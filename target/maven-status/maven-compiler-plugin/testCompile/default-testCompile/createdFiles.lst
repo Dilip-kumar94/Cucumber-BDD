@@ -1,6 +1,0 @@
-steps\Common_steps.class
-Actions\common_actions.class
-Actions\EbayHomepage_actions.class
-steps\EbayHomepage_Steps.class
-Elements\EbayHompage_Elements.class
-TestRunner\TestRunner.class
