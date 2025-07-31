@@ -16,7 +16,6 @@ public class Common_steps {
 
     @BeforeAll
     public static void before_all() throws InterruptedException{
-        System.setProperty("webdriver.chrome.driver", "Webdriver/chromedriver.exe");
         dr = new ChromeDriver();
         dr.manage().window().maximize();
     }
